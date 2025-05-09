@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Professional Plumbing Services",
+    "details": "Get expert plumbing solutions for your home or business. Our licensed plumbers ensure quality service and timely repairs.",
+    "buttonText": "Book Now",
+    "buttonLink": "/services",
+    "backgroundImage": "https://i.ibb.co/HCM6Skh/professional-worker-fixing-bathroom-23-2148656904.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Efficient Electrical Repairs",
+    "details": "Need electrical repairs or installations? Our skilled electricians deliver reliable solutions for all your electrical needs.",
+    "buttonText": "Learn More",
+    "buttonLink": "/services/electrician",
+    "backgroundImage": "https://i.ibb.co/jgwcq0m/electrician-engineer-checking-up-voltage-current-resistance-with-multimeter-breaker-switch-box-57567.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Fast and Reliable Home Delivery",
+    "details": "Enjoy hassle-free delivery services right to your doorstep. From groceries to parcels, we ensure timely deliveries.",
+    "buttonText": "Explore Services",
+    "buttonLink": "/services/delivery",
+    "backgroundImage": "https://i.ibb.co/42NDdmm/way-concept-illustration-114360-1191.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Skilled Technicians at Your Service",
+    "details": "Our expert technicians provide a range of technical services. From IT solutions to appliance repairs, we've got you covered.",
+    "buttonText": "Get Help Now",
+    "buttonLink": "/services/technician",
+    "backgroundImage": "https://i.ibb.co/WtJ2fCz/construction-worker-concept-illustration-114360-8916.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Professional Home Services",
+    "details": "Need a homemaker or house cleaning services? Our professionals offer top-notch home services for your convenience.",
+    "buttonText": "Contact Us",
+    "buttonLink": "/services/cleaning",
+    "backgroundImage": "https://i.ibb.co/z6y950p/professional-cleaning-service-team-duties-accessories-flat-composition-with-man-woman-uniform-sweepi.jpg"
+  }
+]
