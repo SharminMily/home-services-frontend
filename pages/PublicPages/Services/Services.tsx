@@ -28,12 +28,12 @@ const Services = () => {
     return (
       <Container>
         <div className="text-center py-12">
-          <p className="text-[var(--color-foreground-light)] text-lg">
+          <p className=" text-lg">
             Error loading services or categories. Please try again.
           </p>
           <Button
             onClick={() => mutate()}
-            className="mt-4 bg-primary text-[var(--color-foreground-dark)] hover:bg-[var(--color-secondary)] transition-colors rounded-[var(--radius-md)]"
+            className="mt-4 bg-primary text-white hover:bg-secondary transition-colors rounded-md"
           >
             Retry
           </Button>
@@ -50,16 +50,16 @@ const Services = () => {
             <h1 className="text-4xl font-bold text-primary mb-4">
               Our Services
             </h1>
-            <p className="text-lg text-[var(--color-foreground-light)]">
+            <p className="text-lg ">
               Discover a wide range of home services provided by trusted professionals near you.
             </p>
           </div>
 
           <Tabs defaultValue="all" className="w-full">
-            <TabsList className="flex justify-center mb-8 bg-transparent border border-primary">
+            <TabsList className="flex justify-center mb-8 bg-transparent border border-primary gap-1">
               <TabsTrigger
                 value="all"
-                className="px-4 py-2 text-[var(--color-foreground-light)] data-[state=active]:bg-primary data-[state=active]:text-white hover:border-primary hover:text-primary hover:border"
+                className="px-4 py-2  data-[state=active]:bg-primary data-[state=active]:text-white hover:border-primary hover:text-primary hover:border"
               >
                 All Services
               </TabsTrigger>
@@ -67,7 +67,7 @@ const Services = () => {
                 <TabsTrigger
                   key={category.id}
                   value={category.id}
-                  className="px-4 py-2 text-[var(--color-foreground-light)] data-[state=active]:bg-primary data-[state=active]:text-white hover:border-primary hover:text-primary hover:border"
+                  className="px-4 py-2  data-[state=active]:bg-primary data-[state=active]:text-white hover:border-primary hover:text-primary hover:border"
                 >
                   {category.name}
                 </TabsTrigger>
@@ -87,7 +87,7 @@ const Services = () => {
                           src={service.image}
                           alt={service.title}
                           fill
-                          className="object-cover rounded-t-[var(--radius-md)]"
+                          className="object-cover rounded-t-md"
                           onError={(e) => {
                             e.currentTarget.src = '/placeholder-service.jpg';
                           }}
@@ -96,25 +96,25 @@ const Services = () => {
                           src={'https://i.ibb.co/HCM6Skh/professional-worker-fixing-bathroom-23-2148656904.jpg'}
                           alt={service.title}
                           fill
-                          className="object-cover rounded-t-[var(--radius-md)]"
+                          className="object-cover rounded-t-md"
                           onError={(e) => {
                             e.currentTarget.src = '/placeholder-service.jpg';
                           }}
                         />
                       </div>
-                      <CardTitle className="text-xl font-[var(--font-exo)] text-primary">
+                      <CardTitle className="text-xl font-exo text-primary">
                         {service.title}
                       </CardTitle>
                     </CardHeader>
                     <CardContent>
-                      <p className="text-[var(--color-foreground-light)] mb-4">
+                      <p className=" mb-4">
                         {service.description}
                       </p>
-                      <p className="text-lg font-bold text-[var(--color-secondary)] mb-4">
+                      <p className="text-lg font-bold text-secondary mb-4">
                         ${service.price}
                       </p>
                       <Button
-                        className="w-full bg-primary text-[var(--color-foreground-dark)] hover:bg-[var(--color-secondary)] transition-colors rounded-[var(--radius-md)]"
+                        className="w-full bg-primary text-white hover:bg-secondary transition-colors rounded-md"
                       >
                         Book Now
                       </Button>
@@ -140,7 +140,7 @@ const Services = () => {
                           src={service.image}
                           alt={service.title}
                           fill
-                          className="object-cover rounded-t-[var(--radius-md)]"
+                          className="object-cover rounded-t-md"
                           onError={(e) => {
                             e.currentTarget.src = '/placeholder-service.jpg';
                           }}
@@ -149,25 +149,25 @@ const Services = () => {
                               src={'https://i.ibb.co/HCM6Skh/professional-worker-fixing-bathroom-23-2148656904.jpg'}
                               alt={service.title}
                               fill
-                              className="object-cover rounded-t-[var(--radius-md)]"
+                              className="object-cover rounded-t-md"
                               onError={(e) => {
                                 e.currentTarget.src = '/placeholder-service.jpg';
                               }}
                             />
                           </div>
-                          <CardTitle className="text-xl font-[var(--font-exo)] text-primary">
+                          <CardTitle className="text-xl font-exo text-primary">
                             {service.title}
                           </CardTitle>
                         </CardHeader>
                         <CardContent>
-                          <p className="text-[var(--color-foreground-light)] mb-4">
+                          <p className=" mb-4">
                             {service.description}
                           </p>
-                          <p className="text-lg font-bold text-[var(--color-secondary)] mb-4">
+                          <p className="text-lg font-bold text-secondary mb-4">
                             ${service.price}
                           </p>
                           <Button
-                            className="w-full bg-primary text-[var(--color-foreground-dark)] hover:bg-[var(--color-secondary)] transition-colors rounded-[var(--radius-md)]"
+                            className="w-full bg-primary text-[var(--color-foreground-dark)] hover:bg-secondary transition-colors rounded-md"
                           >
                             Book Now
                           </Button>
