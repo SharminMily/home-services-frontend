@@ -1,4 +1,5 @@
-import Home from "@/pages/Home/Home";
+import Home from "@/pages/PublicPages/Home/Home";
+
 
 export default function page() {
   return (

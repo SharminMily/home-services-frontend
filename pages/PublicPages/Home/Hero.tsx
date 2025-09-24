@@ -94,7 +94,7 @@ const Hero = () => {
                 </p>
                 <div className="flex gap-3">
                   <Link href={banner.buttonLink}>
-                    <button className="text-sm md:text-base lg:text-lg font-semibold bg-primary px-4 py-1 text-white rounded-full hover:bg-secondary text-black transition-all duration-300 ease-in-out cursor-pointer">
+                    <button className="text-sm md:text-base lg:text-lg font-semibold bg-primary px-4 py-1 text-white rounded-full hover:bg-secondary transition-all duration-300 ease-in-out cursor-pointer">
                       {banner.buttonText}
                     </button>
                   </Link>

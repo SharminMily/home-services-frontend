@@ -5,7 +5,7 @@ import Hero from "./Hero";
 const Home = () => {
   return (
     <Container>
-      <div className="text-foreground-light dark:text-foreground-dark">
+      <div>
         <Hero />
       </div>
     </Container>
