@@ -2,6 +2,7 @@ import axios from "@/lib/axios";
 import { Service } from "@/types/api/Service";
 import useSWR from "swr";
 
+
 // Create a fetcher function for SWR.  This function wraps the Axios call.
 const fetcher = (url: string) => axios.get(url).then((res) => res.data.data);
 
