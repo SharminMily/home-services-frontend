@@ -19,10 +19,10 @@ const Login = () => {
     const res = await loginUser({ email, password });
 
     if (res?.success) {
-      alert("✅ Login successful!");
+      alert(" Login successful!");
       window.location.href = "/"; 
     } else {
-      alert(res?.message || "❌ Login failed");
+      alert(res?.message || "Login failed");
     }
     setLoading(false);
   };

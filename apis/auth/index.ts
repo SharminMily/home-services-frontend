@@ -32,6 +32,7 @@ export const loginUser = async (userData: FieldValues) => {
         "Content-Type": "application/json",
       },
       body: JSON.stringify(userData),
+      credentials: "include",
     });
     // console.log(res);
     const userInfo = await res.json();
