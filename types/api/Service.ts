@@ -1,4 +1,6 @@
 export interface Service {
+  upazila_id: string;
+  upazila: any;
   id: string;
   title: string;
   description: string;
